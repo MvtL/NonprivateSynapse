@@ -2,7 +2,7 @@
 	"name": "SQL script 4",
 	"properties": {
 		"content": {
-			"query": "CREATE EXTERNAL FILE FORMAT CsvFormat\n    WITH (\n        FORMAT_TYPE = DELIMITEDTEXT,\n        FORMAT_OPTIONS(\n            FIELD_TERMINATOR = ',',\n            STRING_DELIMITER = '\"'\n        )\n    );\nGO",
+			"query": "CREATE EXTERNAL FILE FORMAT CsvFormat\n    WITH (\n        FORMAT_TYPE = DELIMITEDTEXT,\n        FORMAT_OPTIONS(\n            FIELD_TERMINATOR = ',',\n            STRING_DELIMITER = '\"'\n        )\n    );\nGO\n\n\n--hjhkj",
 			"metadata": {
 				"language": "sql"
 			},
