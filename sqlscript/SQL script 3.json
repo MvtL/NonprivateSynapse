@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP 100 *\nFROM OPENROWSET(\n    BULK 'https://2fdatalaketest.dfs.core.windows.net/raw/On_Time.csv',\n    FORMAT = 'csv',\n    PARSER_VERSION = '2.0') AS rows",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
